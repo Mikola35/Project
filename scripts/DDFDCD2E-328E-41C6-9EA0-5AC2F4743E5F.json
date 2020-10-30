@@ -1,0 +1,17 @@
+{
+    "@class": "MainCharacterScript",
+    "id": {
+        "uuid": "DDFDCD2E-328E-41C6-9EA0-5AC2F4743E5F"
+    },
+    "name": "MainCharacterScript",
+    "enableOnAwake": true,
+    "character": {
+        "uuid": "66630115-4A88-4EB4-9E5B-8DF96854B39F"
+    },
+    "spawner": {
+        "uuid": "41AC1CA5-98BC-491F-8711-4506FF1F58C3"
+    },
+    "stateMachine": {
+        "uuid": "3DC13E15-5BCA-434F-A9AD-033F0FE6543D"
+    }
+}

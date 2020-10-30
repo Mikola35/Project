@@ -1,0 +1,41 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "23330EA2-C44C-4E4F-9699-8D1E30190AD6"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 699,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FC04AF4D-D6D7-4A0B-9CBE-2951B0097BEE"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "7A15EFE6-CFA7-474D-A98C-589A12A550CB"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

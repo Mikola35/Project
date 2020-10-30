@@ -1,0 +1,49 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "3B2EA192-AE22-46EA-9EAA-F969D61E763D"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 4000,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C81FDBAE-006A-40C6-8908-EA793BBD1882"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F4BCA1A1-F584-4713-9C78-09FB88FE1DC1"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "доска"
+                    }
+                },
+                "animation": {
+                    "uuid": "3669C584-69C9-4563-B854-7C01F10B99E4"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

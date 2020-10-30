@@ -1,0 +1,49 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "560A3E7E-8D80-4D11-BB9C-2D5EB82CD29D"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 1000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3660474F-1FAE-4B9B-BBCC-FB0E1695E1A0"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "71A910E6-AB4E-4241-A5D0-1F0E81CE3A94"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 8,
+                        "name": "Конвеер"
+                    }
+                },
+                "animation": {
+                    "uuid": "D65970EE-6745-49EB-9009-A242FE6D0D73"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

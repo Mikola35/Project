@@ -1,0 +1,81 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B27E30B6-3F73-47C9-AC2F-64A269A6090A"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 500,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "552E1781-C66A-427E-B9E8-C4166D359761"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "D98957A0-6481-4268-90B2-AF196FBF3187"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "594F4379-1D1D-48B5-ADBD-A5241C3E9D69"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "36621D90-3414-4F66-B987-5060BC80655F"
+                    }
+                },
+                "animation": {
+                    "uuid": "12DD6082-066B-4B8A-B084-4CDFDEA609B6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StateMachineTrigger",
+            "id": {
+                "uuid": "78DBEACE-5A09-44C8-BBA6-62B810F8E55B"
+            },
+            "ownerScriptId": {
+                "uuid": "B27E30B6-3F73-47C9-AC2F-64A269A6090A"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "state_id": {
+                "uuid": "3874BFE9-B467-42E6-AE5A-AFF5B6D013B0"
+            },
+            "obj_id": {
+                "uuid": "36621D90-3414-4F66-B987-5060BC80655F"
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

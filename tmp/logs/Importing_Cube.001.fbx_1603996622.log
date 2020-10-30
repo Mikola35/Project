@@ -1,0 +1,16 @@
+[20:37:02.086634] [Import] [info] (thread 1582469) Importing from /Users/nikolay/Documents/Models/конвеер/FBXs/Cube.001.fbx
+[20:37:02.111166] [Import] [info] (thread 1582469) Imported scene tree:
+name: "RootNode"
+
+	name: "Cube.001"
+	numMeshes: 1
+	 addr: "0x7fdf2e8e1e00"
+	 name: "Cube.001"
+	 numVertices: "24"
+	 numFaces: "12"
+	
+	
+
+[20:37:02.111209] [Import] [info] (thread 1582469) File loaded successfully
+[20:37:02.111226] [Import] [info] (thread 1582469) Meshes count: 1
+[20:37:02.111238] [Import] [info] (thread 1582469) Materials count: 1

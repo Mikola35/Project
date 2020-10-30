@@ -1,0 +1,17 @@
+{
+    "@class": "VariousSymbolTable",
+    "id": {
+        "uuid": "A011771B-FA8D-4F4C-9E45-CA362BB7B75D"
+    },
+    "variables": [
+        {
+            "@class": "VariantVariable",
+            "id": {
+                "uuid": "AC42E0AD-421B-457A-9A6B-87550EF1FBD5"
+            },
+            "name": "object__36621D90_3414_4F66_B987_5060BC80655F__animation_playing",
+            "type": "float",
+            "value": 0.0
+        }
+    ]
+}

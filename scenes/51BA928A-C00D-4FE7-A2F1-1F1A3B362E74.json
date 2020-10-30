@@ -1,0 +1,2840 @@
+{
+    "@class": "BaseScene",
+    "id": {
+        "uuid": "51BA928A-C00D-4FE7-A2F1-1F1A3B362E74"
+    },
+    "name": "Level",
+    "nodes": [
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "71A910E6-AB4E-4241-A5D0-1F0E81CE3A94"
+                },
+                "name": "UserRootObject",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "children": [
+                "4F8C509B-DCD5-456D-A2DD-2DE96036BD5C",
+                "41AC1CA5-98BC-491F-8711-4506FF1F58C3",
+                "C6FAC36F-625B-464A-8A66-564F1838F484"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4F8C509B-DCD5-456D-A2DD-2DE96036BD5C"
+                },
+                "name": "MainCamera",
+                "enabled": false,
+                "visible": true,
+                "hitVisible": true,
+                "camera": {
+                    "@class": "BaseComponentCamera",
+                    "cameraId": {
+                        "uuid": "BAAA0528-E419-43A7-8E46-2F76CD9447DC"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            -0.009219326078891755,
+                            2.9802322387695315e-8,
+                            -0.9999575018882752,
+                            0.0,
+                            -0.3801814317703247,
+                            0.9249054193496704,
+                            0.003505170810967684,
+                            0.0,
+                            0.9248660206794739,
+                            0.38019755482673647,
+                            -0.008526980876922608,
+                            0.0,
+                            13.87297534942627,
+                            5.703000545501709,
+                            -0.12799324095249177,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "41AC1CA5-98BC-491F-8711-4506FF1F58C3"
+                },
+                "name": "MainCharacter",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "spawner": {
+                    "@class": "BaseComponentSpawner",
+                    "characterScriptId": {
+                        "uuid": "DDFDCD2E-328E-41C6-9EA0-5AC2F4743E5F"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C6FAC36F-625B-464A-8A66-564F1838F484"
+                },
+                "name": "конвеер",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "children": [
+                "59DDF360-9263-448D-AD5B-2DFD3BCAF23B",
+                "48FD056C-075A-4F76-AB05-2779703AB444",
+                "4D4FFF72-BC82-40F8-9A65-5E52C9DDEA77",
+                "FE78B13C-8F88-40F0-A77A-BF8DDAE73717",
+                "0D293E26-0E96-4A5B-A02A-1438E2B8E782",
+                "C9A96026-D755-4AC3-A3F4-257CA8E5A052",
+                "1B1FA58B-4DBB-49B8-A747-2FEDB6A75762",
+                "F4BCA1A1-F584-4713-9C78-09FB88FE1DC1",
+                "56008F84-6FF3-44CF-8ECA-407F30475DD8",
+                "B11A78BB-B078-4A77-94A2-0F3F654F6DA8",
+                "BC33C23D-A3E1-4F6C-B7A1-D2A57D32EA3D",
+                "0666D6BE-3AB1-4B76-B5B7-3C50001A128E",
+                "D54A7863-57BE-4089-B957-817681B19970",
+                "A4E669A9-26E2-4D9E-85C2-9A41FAB049B2",
+                "9ABEB503-9AC4-48E3-9F57-5D4BBB119493",
+                "AD57289A-4BF1-4C96-BFEF-1591D1535BB0"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "59DDF360-9263-448D-AD5B-2DFD3BCAF23B"
+                },
+                "name": "Cube",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "41EBC63F-681A-4DEA-87BD-1ABDE3DF4789"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "A7FAAC84-1F41-4959-9BAD-49EEE1DEACA1"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube",
+                    "importedName": "Cube",
+                    "isBone": false
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "48FD056C-075A-4F76-AB05-2779703AB444"
+                },
+                "name": "1",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.4999998211860657,
+                            0.8660256266593933,
+                            0.0,
+                            0.0,
+                            -0.8660256266593933,
+                            0.4999998211860657,
+                            0.0,
+                            0.0,
+                            0.0,
+                            3.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "99FC5C98-1D58-47F8-BC9F-56F13D3EC9D1",
+                "9A9657B3-3A51-49CC-B243-1E7CE6CA8FF2"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "99FC5C98-1D58-47F8-BC9F-56F13D3EC9D1"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "AE36F310-2400-44F4-AAC9-B84C798AB8B3"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9A9657B3-3A51-49CC-B243-1E7CE6CA8FF2"
+                },
+                "name": "доска Animation 1",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "C86AA9A5-4B04-4646-90A1-D1B8598DC0AD"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4D4FFF72-BC82-40F8-9A65-5E52C9DDEA77"
+                },
+                "name": "2",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -0.5,
+                            0.8660253882408142,
+                            0.0,
+                            0.0,
+                            -0.8660253882408142,
+                            -0.5,
+                            0.0,
+                            0.0,
+                            0.0,
+                            3.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "E9382F09-EDA0-47F2-BEBB-1BE47377DDB1",
+                "A39D0424-3C64-461A-89E3-6D9D2842D19D"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "E9382F09-EDA0-47F2-BEBB-1BE47377DDB1"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "B8B24241-FCC0-4905-B30B-85FADA88B68D"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A39D0424-3C64-461A-89E3-6D9D2842D19D"
+                },
+                "name": "доска Animation 2",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "8799D359-F6AA-4678-9FBB-FD4318F580CD"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "FE78B13C-8F88-40F0-A77A-BF8DDAE73717"
+                },
+                "name": "3",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.0,
+                            -1.2665984172599566e-7,
+                            0.0,
+                            0.0,
+                            1.2665984172599566e-7,
+                            -1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            3.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "B6B7E128-74E5-40A3-8210-E27C7CAB96E0",
+                "E36ABD1C-9FD0-4C75-9E4E-C1ACA6064E13"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "B6B7E128-74E5-40A3-8210-E27C7CAB96E0"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "C87EE67A-A9E9-4D0A-AAC8-9E30DA27002E"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "E36ABD1C-9FD0-4C75-9E4E-C1ACA6064E13"
+                },
+                "name": "доска Animation 3",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "97A179E6-4B51-4ACE-8B7D-97F739DC7673"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0D293E26-0E96-4A5B-A02A-1438E2B8E782"
+                },
+                "name": "4",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.0,
+                            -1.2665984172599566e-7,
+                            0.0,
+                            0.0,
+                            1.2665984172599566e-7,
+                            -1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.5,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "8B845751-E366-4B31-B65D-A1903DAE4160",
+                "A02F0C8C-D1AB-48B7-93CC-8CD16F4AFA47"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "8B845751-E366-4B31-B65D-A1903DAE4160"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "615C12DC-5F4F-470A-8B6C-8FEA1D0333FB"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A02F0C8C-D1AB-48B7-93CC-8CD16F4AFA47"
+                },
+                "name": "доска Animation 4",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "09E37286-0435-4655-845D-C08090561FF5"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C9A96026-D755-4AC3-A3F4-257CA8E5A052"
+                },
+                "name": "5",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.0,
+                            -1.2665984172599566e-7,
+                            0.0,
+                            0.0,
+                            1.2665984172599566e-7,
+                            -1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "4560446D-D749-4761-8C12-3D47B81D7E32",
+                "C49609AD-CFFF-4A4F-90F9-8BCB023DA500"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4560446D-D749-4761-8C12-3D47B81D7E32"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "1689474E-33C0-40D9-A125-6AACFCC41301"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C49609AD-CFFF-4A4F-90F9-8BCB023DA500"
+                },
+                "name": "доска Animation 5",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "4A038A7A-5593-4C81-BDF5-51BABF8054C3"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "1B1FA58B-4DBB-49B8-A747-2FEDB6A75762"
+                },
+                "name": "6",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.0,
+                            -1.2665984172599566e-7,
+                            0.0,
+                            0.0,
+                            1.2665984172599566e-7,
+                            -1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.5,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "6951F240-D557-4FB8-A676-10C21522989B",
+                "AAFEE222-6DFE-4ABA-A7D5-0DD2FFC03748"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "6951F240-D557-4FB8-A676-10C21522989B"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "267ABD03-4609-4FF1-8C3E-68123B24CF0E"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "AAFEE222-6DFE-4ABA-A7D5-0DD2FFC03748"
+                },
+                "name": "доска Animation 6",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "14325613-A944-463D-8B8C-06DD3AF92F78"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "F4BCA1A1-F584-4713-9C78-09FB88FE1DC1"
+                },
+                "name": "7",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.0,
+                            -1.2665984172599566e-7,
+                            0.0,
+                            0.0,
+                            1.2665984172599566e-7,
+                            -1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -2.9966228008270265,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "B3E73DDC-C99C-4D9A-966B-2E250571EB42",
+                "EC8B84C7-1E8D-46C7-AA5A-0674BF1030D0"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "B3E73DDC-C99C-4D9A-966B-2E250571EB42"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "B7B61729-D07B-4D0E-AD03-0AE34EBA1F73"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "EC8B84C7-1E8D-46C7-AA5A-0674BF1030D0"
+                },
+                "name": "доска Animation 7",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "3B2EA192-AE22-46EA-9EAA-F969D61E763D"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "56008F84-6FF3-44CF-8ECA-407F30475DD8"
+                },
+                "name": "8",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            -0.0,
+                            0.0,
+                            -0.0,
+                            -0.5000001192092896,
+                            -0.8660253882408142,
+                            0.0,
+                            0.0,
+                            0.8660253882408142,
+                            -0.5000001192092896,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -2.9966228008270265,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "78D2F518-4992-4864-BA6F-42EEBCBED0CD",
+                "0D7E92BD-D787-43D7-9A98-9E9DD3EAA4CF"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "78D2F518-4992-4864-BA6F-42EEBCBED0CD"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "99A73435-25A0-4982-BB46-1B96A9C9EC64"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0D7E92BD-D787-43D7-9A98-9E9DD3EAA4CF"
+                },
+                "name": "доска Animation 8",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "1DBB61D3-5890-4307-B404-FF579079CCCE"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "B11A78BB-B078-4A77-94A2-0F3F654F6DA8"
+                },
+                "name": "9",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            -0.0,
+                            0.0,
+                            -0.0,
+                            0.5,
+                            -0.8660253882408142,
+                            0.0,
+                            0.0,
+                            0.8660253882408142,
+                            0.5,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -2.9966228008270265,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "70F6DEB3-61A0-4A8E-8512-A8B8CCFDA3DF",
+                "C3314D1F-60DD-40D3-91EC-159B8434FB9D"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "70F6DEB3-61A0-4A8E-8512-A8B8CCFDA3DF"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "6A37BF65-4326-4C58-96FA-67C0EEE09E07"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C3314D1F-60DD-40D3-91EC-159B8434FB9D"
+                },
+                "name": "доска Animation 9",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "2B551860-EEB9-46C9-BAEB-DD4FAC8A00B8"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "BC33C23D-A3E1-4F6C-B7A1-D2A57D32EA3D"
+                },
+                "name": "10",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -2.9966228008270265,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "62D67775-721F-417C-B555-5A564EFAB5DA",
+                "48FA12F8-CD32-4BBE-9B21-C3B5E8E33293"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "62D67775-721F-417C-B555-5A564EFAB5DA"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "F65072A7-31C8-4BA4-82C4-9505E305A283"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "8EB04125-D86E-4986-A960-6ACFBFA133B0"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "48FA12F8-CD32-4BBE-9B21-C3B5E8E33293"
+                },
+                "name": "доска Animation 10",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "5AFF5695-0CC3-4BFC-9FD6-DABC797FB9A6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0666D6BE-3AB1-4B76-B5B7-3C50001A128E"
+                },
+                "name": "11",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -1.5,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "713E27E7-4206-4F33-8215-506592973CAE",
+                "B7B64702-E86C-4254-96E7-1DFE5949AC52"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "713E27E7-4206-4F33-8215-506592973CAE"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "D2D15FD3-554F-4E8F-89DF-0B6F5B5D92C8"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "195DA97E-2690-454A-A37A-296ACCD273CE"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "B7B64702-E86C-4254-96E7-1DFE5949AC52"
+                },
+                "name": "доска Animation 11",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "C1FE5A1C-222F-4B90-9F7F-AA335757ABEC"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "D54A7863-57BE-4089-B957-817681B19970"
+                },
+                "name": "12",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "5B48BE36-2C1F-4875-9FAA-10B198D6AB9F",
+                "6F169E0B-1C5F-42CB-B39C-31BE5D1F76E3"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "5B48BE36-2C1F-4875-9FAA-10B198D6AB9F"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "A8B22B06-F2A3-4FF3-8DB4-16542CE5E1B7"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "6F4BD9E1-4EE8-4503-ABB5-A0EA484A6323"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "6F169E0B-1C5F-42CB-B39C-31BE5D1F76E3"
+                },
+                "name": "доска Animation 12",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "00AF70D9-858D-472A-A1BC-5114E6DBA392"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A4E669A9-26E2-4D9E-85C2-9A41FAB049B2"
+                },
+                "name": "13",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.5,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "E41AACAB-9A8F-4523-9C1B-4F2073F06672",
+                "2B83BC88-1C14-429A-9D08-8C63C79A38D7"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "E41AACAB-9A8F-4523-9C1B-4F2073F06672"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "420AA0B0-9FAE-4469-9121-396FE0EF41D7"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "447A1464-4B6F-49B0-B6DB-CC6838A62B89"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "2B83BC88-1C14-429A-9D08-8C63C79A38D7"
+                },
+                "name": "доска Animation 13",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "4EC455FB-119F-4980-BA75-853555BAE5C9"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9ABEB503-9AC4-48E3-9F57-5D4BBB119493"
+                },
+                "name": "14",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            3.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": true,
+            "children": [
+                "4B7F277F-B328-458E-9CA1-02E3AD6227D7",
+                "A9F37653-1692-4732-A16A-4DE477196656"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4B7F277F-B328-458E-9CA1-02E3AD6227D7"
+                },
+                "name": "Cube.001",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "B3C31707-CF09-48BD-8914-E1996D0C08FA"
+                    }
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "29E2E78E-1F88-4701-BDBA-E5C6A8D3F048"
+                    },
+                    "mapsStates": 127
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.2999999523162842,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Cube.001",
+                    "importedName": "Cube.001",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A9F37653-1692-4732-A16A-4DE477196656"
+                },
+                "name": "доска Animation 1",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "A6B4629C-8B49-4A79-B990-5D78E036DFFA"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            },
+            "asset_id": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "is_asset_root": false
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "AD57289A-4BF1-4C96-BFEF-1591D1535BB0"
+                },
+                "name": "конвеер Animation 14",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "1DB5EB3B-F1E3-4DF5-ABB8-31CC2290A90B"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false
+                }
+            }
+        }
+    ],
+    "scriptSystem": {
+        "@class": "BaseScriptSystem",
+        "scripts": [
+            {
+                "@class": "Script_SkyBox",
+                "id": {
+                    "uuid": "4933B719-FA40-4E38-9550-D419DDC1D068"
+                }
+            },
+            {
+                "@class": "Script_Sun",
+                "id": {
+                    "uuid": "243BCF79-AB18-498B-A60C-077B55BD5F91"
+                }
+            },
+            {
+                "@class": "Script_Gravity",
+                "id": {
+                    "uuid": "FA55202E-2CF8-4DC8-9A2C-4E6799878488"
+                }
+            },
+            {
+                "@class": "CameraFollowScript",
+                "id": {
+                    "uuid": "40BDF28B-B442-4334-B684-7FE3F396D58B"
+                }
+            },
+            {
+                "@class": "Script_PostFX",
+                "id": {
+                    "uuid": "845AF550-6A7D-4119-9216-55A0C57AF134"
+                }
+            },
+            {
+                "@class": "MainCharacterScript",
+                "id": {
+                    "uuid": "DDFDCD2E-328E-41C6-9EA0-5AC2F4743E5F"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "45A459A5-1625-4953-BDE5-08A0D1A49BC0"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "6A884C84-327D-43F0-8092-3AC0CDF790B3"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "95419592-1B46-4D57-8361-A88DA30B4849"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1902E21C-9BD3-432C-A6D6-A0542EF29840"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "0A7355A8-C87C-46CB-887C-D11215CA45D1"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "23330EA2-C44C-4E4F-9699-8D1E30190AD6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "9177B4AC-E593-4094-BDE6-E1D12C915B02"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "639F7825-6D1F-4BAF-B911-8A6F690FE386"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "305DE095-7E23-40AA-AA91-E84DF3F29335"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "94023A5B-6B09-452E-A2E0-143316081E1F"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "EE9B342D-2AB6-40D4-83FD-E70562877851"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "A5EEE86C-883E-4F48-AA1E-F8282CB9EACE"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "83339CDF-6CEF-4687-8584-A6186BA65C37"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B72AC5A1-548C-4D95-AFEE-65BE30AE7BE7"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1C05B117-8071-401C-B703-D2FEF75049F3"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "6AF16923-1DCF-4DDB-9768-55424A056AB0"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "90D9AF56-9E0A-4040-8813-48DA9B155789"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "E6FA585B-6BB9-4EAC-9A2D-9F3933E9B048"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "539FA213-3244-44E2-AC7C-4D17FBE036E3"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "C578AAEA-BA45-4F9D-8B60-E9216E2E944A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B802A87D-8BAF-4F2B-B3E5-CA6400E60014"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1FF92C65-DC63-4181-AAE0-206E17EFEE73"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B27E30B6-3F73-47C9-AC2F-64A269A6090A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4891954B-64FD-418E-BCF2-C83F7BF2C594"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "3AD4B468-F462-43B7-9E6E-9781EE26CECD"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "2F93D599-3534-4CCD-BCD9-B4D508137153"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "946F495D-F284-430D-ABAA-E25C4E8ABA8F"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "8D0C651C-16F0-45B7-9295-268BD9F13641"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "30D0FB1A-FD4A-4F36-A523-C89A9C7452F8"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "A6B4629C-8B49-4A79-B990-5D78E036DFFA"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "00AF70D9-858D-472A-A1BC-5114E6DBA392"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4EC455FB-119F-4980-BA75-853555BAE5C9"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "5AFF5695-0CC3-4BFC-9FD6-DABC797FB9A6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "C1FE5A1C-222F-4B90-9F7F-AA335757ABEC"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "2B551860-EEB9-46C9-BAEB-DD4FAC8A00B8"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1DBB61D3-5890-4307-B404-FF579079CCCE"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "3B2EA192-AE22-46EA-9EAA-F969D61E763D"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "14325613-A944-463D-8B8C-06DD3AF92F78"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4A038A7A-5593-4C81-BDF5-51BABF8054C3"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "09E37286-0435-4655-845D-C08090561FF5"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "97A179E6-4B51-4ACE-8B7D-97F739DC7673"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "8799D359-F6AA-4678-9FBB-FD4318F580CD"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "C86AA9A5-4B04-4646-90A1-D1B8598DC0AD"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1DB5EB3B-F1E3-4DF5-ABB8-31CC2290A90B"
+                }
+            }
+        ]
+    },
+    "assetsNames": [
+        {
+            "key": {
+                "uuid": "571FD2B7-070F-469A-96D2-603965175933"
+            },
+            "value": "доска"
+        }
+    ]
+}

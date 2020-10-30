@@ -1,0 +1,5 @@
+[13:04:29.457946] [SceneFactory] [info] (thread 1416619) Plane is created: id: 65FE7657-CDED-44FC-ADAB-D0845BCAF00F
+[13:04:40.814650] [SceneFactory] [info] (thread 1416619) Box is created: id: 567B23B2-48D5-4032-8081-3266DCD86495
+[13:05:47.023886] [SceneFactory] [info] (thread 1416619) Cylinder is created: id: 05AA364B-AEB1-4F15-8AF1-C1CE49C8B1E2
+[13:07:01.501298] [SceneFactory] [info] (thread 1416619) Box is created: id: F142DB6E-E079-4DC8-89C6-F6E0A8DC9E38
+[13:44:44.405370] [SceneFactory] [info] (thread 1416619) Sphere is created: id: B8813037-7097-41E2-8FE3-10EA9B109266

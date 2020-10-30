@@ -1,0 +1,68 @@
+[14:02:57.280993] [Import] [info] (thread 1416619) Importing from /Users/nikolay/Documents/Models/конвеер/FBXs/Cube.001.fbx
+[14:02:57.330196] [Import] [info] (thread 1416619) Imported scene tree:
+name: "RootNode"
+
+	name: "Cube.001"
+	numMeshes: 1
+	 addr: "0x7fbf0a8c2800"
+	 name: "Cube.001"
+	 numVertices: "24"
+	 numFaces: "12"
+	
+	
+
+[14:02:57.330243] [Import] [info] (thread 1416619) File loaded successfully
+[14:02:57.330258] [Import] [info] (thread 1416619) Meshes count: 1
+[14:02:57.330270] [Import] [info] (thread 1416619) Materials count: 1
+[14:02:57.330358] [Import] [info] (thread 1416619) Textures count (imported): 0
+[14:02:59.767015] [Import] [info] (thread 1416619) Importing from /Users/nikolay/Documents/Models/конвеер/FBXs/Cube.fbx
+[14:02:59.768483] [Import] [info] (thread 1416619) Imported scene tree:
+name: "RootNode"
+
+	name: "Cube"
+	numMeshes: 1
+	 addr: "0x7fbefaf68000"
+	 name: "Cube"
+	 numVertices: "408"
+	 numFaces: "260"
+	
+	
+
+[14:02:59.768512] [Import] [info] (thread 1416619) File loaded successfully
+[14:02:59.768527] [Import] [info] (thread 1416619) Meshes count: 1
+[14:02:59.768539] [Import] [info] (thread 1416619) Materials count: 1
+[14:02:59.768587] [Import] [info] (thread 1416619) Textures count (imported): 0
+[14:05:38.209586] [Import] [info] (thread 1416619) Importing from /Users/nikolay/Documents/Models/конвеер/FBXs/Cube.fbx
+[14:05:38.211076] [Import] [info] (thread 1416619) Imported scene tree:
+name: "RootNode"
+
+	name: "Cube"
+	numMeshes: 1
+	 addr: "0x7fbf18263400"
+	 name: "Cube"
+	 numVertices: "408"
+	 numFaces: "260"
+	
+	
+
+[14:05:38.211104] [Import] [info] (thread 1416619) File loaded successfully
+[14:05:38.211122] [Import] [info] (thread 1416619) Meshes count: 1
+[14:05:38.211135] [Import] [info] (thread 1416619) Materials count: 1
+[14:05:38.211219] [Import] [info] (thread 1416619) Textures count (imported): 0
+[14:05:41.413632] [Import] [info] (thread 1416619) Importing from /Users/nikolay/Documents/Models/конвеер/FBXs/Cube.001.fbx
+[14:05:41.414587] [Import] [info] (thread 1416619) Imported scene tree:
+name: "RootNode"
+
+	name: "Cube.001"
+	numMeshes: 1
+	 addr: "0x7fbf008ce600"
+	 name: "Cube.001"
+	 numVertices: "24"
+	 numFaces: "12"
+	
+	
+
+[14:05:41.414633] [Import] [info] (thread 1416619) File loaded successfully
+[14:05:41.414648] [Import] [info] (thread 1416619) Meshes count: 1
+[14:05:41.414659] [Import] [info] (thread 1416619) Materials count: 1
+[14:05:41.414712] [Import] [info] (thread 1416619) Textures count (imported): 0
