@@ -40,7 +40,7 @@
         {
             "@class": "GroupTrigger",
             "id": {
-                "uuid": "BCC5B8A8-C50B-494B-9D7B-B53061CFF2BC"
+                "uuid": "C1A27BB9-5F13-4500-8F27-9B4456B78BD0"
             },
             "ownerScriptId": {
                 "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
@@ -52,7 +52,7 @@
                 {
                     "@class": "StateMachineTrigger",
                     "id": {
-                        "uuid": "4706A5E0-75A7-4720-9C45-7EAA2522BF9F"
+                        "uuid": "04D93445-BDD5-4802-AB11-682BABBC7CC3"
                     },
                     "ownerScriptId": {
                         "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
@@ -71,7 +71,7 @@
                 {
                     "@class": "StateMachineTrigger",
                     "id": {
-                        "uuid": "9B83FD29-02AB-4287-B504-E9E4DD542E47"
+                        "uuid": "9D9AB99C-1A2F-40B2-8507-D2F901FE00DE"
                     },
                     "ownerScriptId": {
                         "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
@@ -90,7 +90,7 @@
                 {
                     "@class": "StateMachineTrigger",
                     "id": {
-                        "uuid": "479C4166-6619-4056-A581-D2E38F37C21F"
+                        "uuid": "DA68333F-FFCA-4A5E-BE92-55B87BA16882"
                     },
                     "ownerScriptId": {
                         "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
@@ -109,7 +109,7 @@
                 {
                     "@class": "StateMachineTrigger",
                     "id": {
-                        "uuid": "9880F2CF-0361-4A9B-84C4-B2A0425F0526"
+                        "uuid": "7AA3342A-B1CB-4270-8E8E-4B26AC77F08D"
                     },
                     "ownerScriptId": {
                         "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"
@@ -130,7 +130,7 @@
         {
             "@class": "AnimationTrigger",
             "id": {
-                "uuid": "6520EABD-E224-4AFC-9583-91D26E04ABAA"
+                "uuid": "21EDB489-BE13-4756-AFD9-701496D39E75"
             },
             "ownerScriptId": {
                 "uuid": "5B3C1E30-5D93-4FB5-8A10-96CF90364AAB"

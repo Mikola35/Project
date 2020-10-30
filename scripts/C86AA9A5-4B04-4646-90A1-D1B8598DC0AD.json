@@ -5,7 +5,7 @@
     },
     "name": "TimeLineScript",
     "enableOnAwake": false,
-    "duration": 5000,
+    "duration": 4000,
     "loop": true,
     "jumpToFirstFrameAtEnd": false,
     "speed": 1.0,
@@ -20,7 +20,7 @@
             {
                 "@class": "AnimationScript",
                 "id": {
-                    "uuid": "607129E4-81A1-44C4-BB9E-D28C22C45AD9"
+                    "uuid": "E41AD95D-B258-444B-84C0-3852A3E2D884"
                 },
                 "name": "AnimationScript",
                 "enableOnAwake": false,
@@ -32,11 +32,11 @@
                     "targetRelativeAddress": {
                         "@class": "NodeRelativeAddressBase",
                         "index": 1,
-                        "name": "доска"
+                        "name": "1"
                     }
                 },
                 "animation": {
-                    "uuid": "107E8554-3924-486F-ADB8-2941322868FE"
+                    "uuid": "63BE6B03-619E-4CDF-A661-64F3C9CB15A4"
                 },
                 "AnimationType": "object3D",
                 "is_imported": false,

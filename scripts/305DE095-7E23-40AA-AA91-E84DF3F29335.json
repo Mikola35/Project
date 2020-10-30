@@ -40,7 +40,7 @@
         {
             "@class": "StateMachineTrigger",
             "id": {
-                "uuid": "E93FF425-5462-47BB-90B1-85C146F926CE"
+                "uuid": "D632DA81-96F8-4D14-82BA-4C644CB54181"
             },
             "ownerScriptId": {
                 "uuid": "305DE095-7E23-40AA-AA91-E84DF3F29335"
@@ -59,7 +59,7 @@
         {
             "@class": "StateMachineTrigger",
             "id": {
-                "uuid": "8A03BF6E-B455-4BE9-B558-B19CB78E8ABB"
+                "uuid": "E9A3387C-01CB-40A7-A04E-CA2D43869297"
             },
             "ownerScriptId": {
                 "uuid": "305DE095-7E23-40AA-AA91-E84DF3F29335"

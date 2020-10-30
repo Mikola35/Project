@@ -40,7 +40,7 @@
         {
             "@class": "StateMachineTrigger",
             "id": {
-                "uuid": "628DD16E-7E98-4227-A4F6-343797F7536E"
+                "uuid": "60409AD9-126C-46BA-BA0A-F6297DF6B9A0"
             },
             "ownerScriptId": {
                 "uuid": "1902E21C-9BD3-432C-A6D6-A0542EF29840"

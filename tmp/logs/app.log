@@ -2723,3 +2723,38 @@ name: "RootNode"
 [13:51:45.030982] [Analytics] [debug] (thread 1582491) Send http request
 [13:51:45.074409] [Analytics] [debug] (thread 1582491) End http request: true
 [13:51:45.758487] [MANU] [info] (thread 1582469) ::: LOG SESSION ENDED :::
+[2020-10-30 14:29:19.043] [MANU] [info] ::: LOG SESSION STARTED :::
+[14:29:21.752461] [Analytics] [debug] (thread 1861575) Send http request
+[14:29:21.799283] [Analytics] [debug] (thread 1861575) End http request: true
+[14:29:23.419636] [BaseScriptSystem] [debug] (thread 1861519) Load
+[14:29:23.464517] [Scene] [debug] (thread 1861519) set camera
+[14:29:23.483094] [Scene] [debug] (thread 1861519) set camera
+[14:29:31.222440] [BaseScriptSystem] [debug] (thread 1861519) Unload
+[14:29:31.226525] [BaseScriptSystem] [debug] (thread 1861519) Load
+[14:29:31.316944] [Scene] [debug] (thread 1861519) set camera
+[14:29:31.370581] [BaseScriptSystem] [debug] (thread 1861519) Enable
+[14:29:31.370647] [Scene] [debug] (thread 1861519) set camera
+[14:29:31.370773] [BaseScriptSystem] [debug] (thread 1861519) Enable
+[14:29:32.095713] [BaseScriptSystem] [debug] (thread 1861519) Disable
+[14:29:32.095860] [Scene] [debug] (thread 1861519) set camera
+[14:29:32.096121] [BaseScriptSystem] [debug] (thread 1861519) Unload
+[14:29:32.152213] [BaseScriptSystem] [debug] (thread 1861519) Load
+[14:29:32.163193] [Scene] [debug] (thread 1861519) set camera
+[14:29:32.177607] [Scene] [debug] (thread 1861519) set camera
+[14:29:33.811540] [Analytics] [debug] (thread 1861575) Send http request
+[14:29:33.871327] [Analytics] [debug] (thread 1861575) End http request: true
+[14:29:35.283648] [Scene] [debug] (thread 1861519) set camera
+[14:29:36.874524] [Analytics] [debug] (thread 1861575) Send http request
+[14:29:36.928063] [Analytics] [debug] (thread 1861575) End http request: true
+[14:29:43.550487] [BaseScriptSystem] [debug] (thread 1861519) Unload
+[14:29:43.593073] [BaseScriptSystem] [debug] (thread 1861519) Load
+[14:29:43.605312] [Scene] [debug] (thread 1861519) set camera
+[14:29:43.610842] [Scene] [debug] (thread 1861519) set camera
+[14:29:45.939667] [Analytics] [debug] (thread 1861575) Send http request
+[14:29:45.985521] [Analytics] [debug] (thread 1861575) End http request: true
+[14:29:56.278338] [Scene] [debug] (thread 1861519) set camera
+[14:29:58.001179] [Analytics] [debug] (thread 1861575) Send http request
+[14:29:58.048065] [Analytics] [debug] (thread 1861575) End http request: true
+[14:31:59.504586] [Analytics] [debug] (thread 1861519) Send http request
+[14:31:59.630133] [Analytics] [debug] (thread 1861519) End http request: true
+[14:32:01.638542] [MANU] [info] (thread 1861519) ::: LOG SESSION ENDED :::
